@@ -1,0 +1,9 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: ZmartOAuth
+  buildpack: liberty-for-java
+  path: ./target/ZmartOAuth.zip
+  memory: 512M
+  random-route: true
